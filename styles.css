@@ -42,6 +42,15 @@ body {
     align-items: center;
     height: 70px;
 }
+    
+.nav-logo .nav-logo-img {
+    width: 36px;
+    height: 36px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 6px;
+}
 
 .nav-logo i {
     font-size: 1.5rem;
