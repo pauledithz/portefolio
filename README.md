@@ -13,11 +13,11 @@ Je m'appelle Paul Edithz. Ce portfolio rassemble mes projets personnels et profe
 - Exemple de déploiement (GitHub Pages / Netlify / Vercel)
 
 ## Démo
-Lien de la démo (si déployée) : https://<votre-domaine-ou-username>.github.io/portefolio
+Lien de la démo  : https://pauledithz.github.io/portefolio/
 
 ## Installation locale
 1. Clonez le dépôt
-   git clone https://github.com/pauledithz/portefolio.git
+   git clone https://pauledithz.github.io/portefolio/
 2. Entrez dans le dossier
    cd portefolio
 3. Installez les dépendances (si applicable)
@@ -41,15 +41,10 @@ Exemples possibles :
 - Outils : Vite / Webpack / Parcel
 - Déploiement : GitHub Pages / Netlify / Vercel
 
-Modifie cette section en fonction des technologies effectivement utilisées.
-
 ## Contribuer
 Les contributions sont les bienvenues :
 - Ouvre une issue pour proposer une amélioration ou signaler un bug
 - Propose une pull request avec une description claire des changements
-
-## Licence
-Précisez la licence choisie (MIT, Apache-2.0, etc.) ou ajoutez un fichier LICENSE.
 
 ## Contact
 Email : pauledithz28@gmail.com  
