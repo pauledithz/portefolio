@@ -52,10 +52,5 @@ Les contributions sont les bienvenues :
 Précisez la licence choisie (MIT, Apache-2.0, etc.) ou ajoutez un fichier LICENSE.
 
 ## Contact
-Email : ton.email@example.com  
+Email : pauledithz28@gmail.com  
 LinkedIn / Twitter / GitHub : @pauledithz
-
----
-
-Si tu veux, je peux adapter ce texte (style plus professionnel, plus personnel, plus court) ou le pousser directement dans le dépôt en créant/modifiant le fichier README.md — dis-moi ce que tu préfères.
-```
