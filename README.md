@@ -12,9 +12,6 @@ Je m'appelle Paul Edithz. Ce portfolio rassemble mes projets personnels et profe
 - Mode responsive pour mobile et desktop
 - Exemple de déploiement (GitHub Pages / Netlify / Vercel)
 
-## Démo
-Lien de la démo (si déployée) : https://<votre-domaine-ou-username>.github.io/portefolio
-
 ## Installation locale
 1. Clonez le dépôt
    git clone https://github.com/pauledithz/portefolio.git
