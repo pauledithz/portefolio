@@ -409,6 +409,23 @@ section {
     font-size: 4rem;
 }
 
+.illustration-worker {
+    width: 280px;
+    height: 280px;
+    display: block;
+    filter: drop-shadow(0 10px 30px rgba(102, 126, 234, 0.2));
+    transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.illustration-worker:hover {
+    transform: scale(1.04);
+    filter: drop-shadow(0 15px 40px rgba(102, 126, 234, 0.35));
+}
+
+body.dark .illustration-worker {
+    filter: drop-shadow(0 10px 30px rgba(102, 126, 234, 0.45));
+}
+
 /* Section Projets */
 .projects {
     background: var(--section-bg);
