@@ -397,6 +397,14 @@ section {
     justify-content: center;
 }
 
+.about-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    filter: sepia(1) hue-rotate(250deg) saturate(2);
+}
+
 .image-placeholder {
     width: 200px;
     height: 200px;
