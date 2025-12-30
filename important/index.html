@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Créatif - Design & Développement</title>
+    <link rel="icon" href="logo-portefolio.svg" type="image/svg+xml">
+    <!-- Fallback: PNG data URL (32x32) -->
+    <link rel="icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAKUlEQVRYR+3MMQEAIAwDQe7/5c2kUG7aRUAy5gF4mE3Q0k9X4YBAgQIECBAgAABAj8D1dR4ZQkQAAAAASUVORK5CYII=" type="image/png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="logo-portefolio.svg" alt="Logo" class="nav-logo-img" width="36" height="36">
+                <span class="logo-text">My Portfolio</span>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Changer le thème" title="Changer le thème">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="add-button">+</button>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#accueil" class="nav-link">Accueil</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#apropos" class="nav-link">À Propos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projets" class="nav-link">Projets</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#competences" class="nav-link">Compétences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Créateur</span>
+                    <span class="title-line">Digital</span>
+                </h1>
+                <p class="hero-subtitle">Design • Développement • Innovation</p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-elements">
+                    <div class="floating-element element-1"></div>
+                    <div class="floating-element element-2"></div>
+                    <div class="floating-element element-3"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="about">
+        <div class="container">
+            <h2 class="section-title">À Propos</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-description">
+                        Passionné par la création digitale, je combine design et technologie pour créer des expériences uniques et mémorables. Mon approche allie esthétique moderne et fonctionnalité intuitive. j'utilise le dernière technologie pour faire de la meilleur qualité possible et un esthétique attrayant. Je suis très fort en application IOS <i class="fa-brands fa-apple"></i> et en design logiciels <i class="fa-brands fa-figma"></i>
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Projets Réalisés</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">4+</span>
+                            <span class="stat-label">Années d'Expérience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">100%</span>
+                            <span class="stat-label">Satisfaction Client</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="logo utilisateur github.jpeg" alt="Logo Utilisateur GitHub">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-overlay">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Site E-commerce</h3>
+                        <p class="project-description">Plateforme moderne avec design responsive et fonctionnalités avancées.</p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-overlay">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Application Mobile</h3>
+                        <p class="project-description"><i class="fa-brands fa-apple"></i> App iOS / <i class="fa-brands fa-android"></i> Android avec interface intuitive et performance optimisée.</p>
+                        <div class="project-tags">
+                            <span class="tag">React Native</span>
+                            <span class="tag">Firebase</span>
+                            <span class="tag">TypeScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="image-overlay">
+                            <i class="fas fa-palette"></i>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Identité Visuelle</h3>
+                        <p class="project-description">Logo, charte graphique et supports de communication pour startup avec de bon logiciels <i class="fa-brands fa-figma"></i> </p>
+                        <div class="project-tags">
+                            <span class="tag">Illustrator</span>
+                            <span class="tag">Photoshop</span>
+                            <span class="tag">Branding</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="skills">
+        <div class="container">
+            <h2 class="section-title">Compétences</h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3 class="category-title">Frontend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">HTML/CSS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">JavaScript</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">React</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Backend</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Node.js</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">SQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3 class="category-title">Design</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Figma</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Photoshop</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Canvas</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>pauledithz28@gmail.com</span>
+                    </div>
+
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Toulouse, France</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" placeholder="Votre email" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" placeholder="Votre numéro de téléphone" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="Suj" placeholder="Votre sujet" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Votre message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Portfolio Créatif. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Modal Espace de Travail -->
+    <div id="workspace-modal" class="workspace-modal">
+        <div class="workspace-content">
+            <div class="workspace-header">
+                <h2>Mon Espace de Travail</h2>
+                <button class="close-workspace">&times;</button>
+            </div>
+            
+            <div class="workspace-tabs">
+                <button class="tab-btn active" data-tab="photos">📸 Photos</button>
+                <button class="tab-btn" data-tab="ecommerce">🛒 E-commerce</button>
+                <button class="tab-btn" data-tab="code">💻 Code</button>
+            </div>
+            
+            <div class="workspace-body">
+                <!-- Onglet Photos -->
+                <div id="photos" class="tab-content active">
+                    <div class="workspace-actions">
+                        <button class="add-item-btn" data-type="photo">
+                            <i class="fas fa-plus"></i> Ajouter une photo
+                        </button>
+                        <input type="file" id="photo-file-input" accept="image/*" style="display: none;">
+                    </div>
+                    <div class="items-grid" id="photos-grid">
+                        <div class="item-card photo-item">
+                            <div class="item-preview">
+                                <i class="fas fa-image"></i>
+                            </div>
+                            <div class="item-info">
+                                <h4>Photo Projet 1</h4>
+                                <p>Design moderne</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Onglet E-commerce -->
+                <div id="ecommerce" class="tab-content">
+                    <div class="workspace-actions">
+                        <button class="add-item-btn" data-type="ecommerce">
+                            <i class="fas fa-plus"></i> Ajouter un article
+                        </button>
+                        <input type="file" id="ecommerce-file-input" accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx" style="display: none;">
+                    </div>
+                    <div class="items-grid" id="ecommerce-grid">
+                        <div class="item-card ecommerce-item">
+                            <div class="item-preview">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                            <div class="item-info">
+                                <h4>Produit Premium</h4>
+                                <p>Prix: 99€</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Onglet Code -->
+                <div id="code" class="tab-content">
+                    <div class="workspace-actions">
+                        <button class="add-item-btn" data-type="code">
+                            <i class="fas fa-plus"></i> Ajouter un projet
+                        </button>
+                        <input type="file" id="code-file-input" accept=".js,.ts,.jsx,.tsx,.html,.css,.py,.java,.cpp,.c,.php,.rb,.go,.rs,.swift,.kt" style="display: none;">
+                    </div>
+                    <div class="items-grid" id="code-grid">
+                        <div class="item-card code-item">
+                            <div class="item-preview">
+                                <i class="fas fa-code"></i>
+                            </div>
+                            <div class="item-info">
+                                <h4>Application Web</h4>
+                                <p>React + Node.js</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
