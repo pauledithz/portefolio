@@ -1,51 +1,69 @@
-# Portefolio
+# My Portfolio
 
-Bienvenue sur mon portfolio — ici je présente mes projets, compétences et contact. Ce dépôt contient une vitrine de mes réalisations web (sites, applications, expériences) et sert de base pour montrer mon travail aux recruteurs et collaborateurs.
+Bienvenue sur mon portfolio créatif — une vitrine de mes projets, compétences et réalisations en design et développement web.
 
-## À propos
-Je m'appelle Paul Edithz. Ce portfolio rassemble mes projets personnels et professionnels, avec des démonstrations, le code source et des explications sur les choix techniques.
+## 👋 À propos
+Je m'appelle Paul Edithz, développeur web créatif passionné par le design et l'expérience utilisateur. Ce portfolio présente mes projets et mes compétences en développement web moderne, avec une attention particulière au responsive design et à l'accessibilité.
 
-## Fonctionnalités
-- Présentation claire des projets (captures d'écran, description, liens)
-- Pages "À propos" et "Contact"
-- Section pour les compétences et technologies utilisées
-- Mode responsive pour mobile et desktop
-- Exemple de déploiement (GitHub Pages / Netlify / Vercel)
+## ✨ Fonctionnalités
+- Présentation élégante des projets avec descriptions détaillées
+- Section "À propos" et formulaire "Contact"
+- Vue d'ensemble des compétences et technologies
+- Design moderne et minimaliste avec support du mode sombre/clair
+- Pleinement responsive (mobile, tablette, desktop)
+- Navigation fluide avec smooth scroll
+- Interface utilisateur intuitive et accessible
 
-## Démo
-Lien de la démo (si déployée) : https://<votre-domaine-ou-username>.github.io/portefolio
+## 🚀 Démo en ligne
+https://pauledithz.github.io/portefolio/
+ 
+## 💻 Installation locale
 
-## Installation locale
+### Prérequis
+- Un navigateur web moderne
+- Un éditeur de code (VS Code, etc.)
+- Optionnel : un serveur local (Live Server, http-server, etc.)
+
+### Étapes
 1. Clonez le dépôt
-   git clone https://pauledithz.github.io/portefolio/
-2. Entrez dans le dossier
-   cd portefolio
-3. Installez les dépendances (si applicable)
-   npm install
-4. Lancez le serveur de développement
-   npm run dev
-5. Ouvrez http://localhost:3000 (ou le port indiqué)
-
-(Adaptez les commandes selon le framework utilisé : HTML/CSS pur, React, Vue, Svelte, etc.)
+   ```bash
+   git clone https://github.com/pauledithz/portefolio.git
+   ```
+2. Naviguez dans le dossier
+   📁 Structure du projet
+```
+portefolio/
+├── index.html          # Page principale HTML
+├── styles.css          # Feuille de styles (Dark mode inclus)
+├── script.js           # JavaScript vanilla (interactions, animations)
+├── README.md           # Documentation
+└── assets/             # Images et ressources du portfolio
+```
+   # Avec Live Server (VS Code) : clic droit sur index.html → Open with Live Server
+   # Ou avec http-server (npm) :
+   npx http-server .
+   ```
 
 ## Structure du projet
 - /public — ressources publiques (images, favicon)
-- /src — code source (pages, composants, styles)
-- /assets — images et médias des projets
-- README.md — documentation du dépôt
-
-## Technologies
-Exemples possibles :
+- /🛠️ Technologies utilisées
+- **HTML5** — Structure sémantique
+- **CSS3** — Flexbox, Grid, animations, variables CSS
+- **JavaScript (ES6+)** — Vanilla JS sans dépendances externes
+- **Design** — Responsive design, accessibilité WCAG
+- **Déploiement** — GitHub Pages
 - HTML5, CSS3, JavaScript (ES6+)
 - Framework : React / Vue / Svelte / Next.js
 - Outils : Vite / Webpack / Parcel
 - Déploiement : GitHub Pages / Netlify / Vercel
 
-## Contribuer
-Les contributions sont les bienvenues :
-- Ouvre une issue pour proposer une amélioration ou signaler un bug
-- Propose une pull request avec une description claire des changements
+## 📝 Contribuer
+Ce projet est personnel, mais les suggestions sont bienvenues :
+- Ouvre une [issue](https://github.com/pauledithz/portefolio/issues) pour les améliorations ou bugs
+- Les pull requests sont acceptées pour les corrections
 
-## Contact
-Email : pauledithz28@gmail.com  
-LinkedIn / Twitter / GitHub : @pauledithz
+## 📧 Contact
+- **Email** : pauledithz28@gmail.com
+- **GitHub** : [@pauledithz](https://github.com/pauledithz)
+- **LinkedIn** : [@pauledithz](https://linkedin.com/in/pauledithz)
+- **Twitter/X** : [@pauledithz](https://twitter.com/pauledithz)
